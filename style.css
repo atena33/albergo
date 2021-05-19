@@ -1,0 +1,91 @@
+﻿body
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Book Antiqua';
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > img, footer > img {
+    width: 120px;
+    height: 90px;
+}
+
+header > h1 {
+    margin-right:30px;
+}
+
+.container {
+    display: flex;
+    justify-content:space-between;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color:lightpink;
+}
+
+nav > a {
+    margin: 30px;
+    text-decoration: none;
+}
+
+nav > a:link {
+    color: brown;
+}
+
+nav > a:visited {
+    color: aqua;
+}
+
+main > img {
+
+    width: 200%;
+    height: auto;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    
+}
+
+main > p {
+    line-height: 44px;
+    margin-right:30px;
+}
+
+footer > h2 {
+    margin-left: 20px;
+}
+
+.camera {
+
+    width: 150px;
+    height: 100px;
+}
+
+#camere {
+    margin-bottom:10px;
+    align-self:center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#mappa {
+    width:300px;
+    height:auto;
+}
+
+#contatti {
+    display:flex;
+    flex-direction:column;
+    margin-right: 30%;
+}
+
