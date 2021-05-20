@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+</head>
+<body onload="disabled()">
+
+    <form onsubmit="return redirect()" action="HomePage.html">
+        <label>Username</label>
+        <input type="text" id="username" oninput="enabled()"/> <br />
+        <input type="submit" value="Salva" onclick="save()"   id="submit"/>
+        <a href="HomePage.html" style="display:none"></a>
+
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
